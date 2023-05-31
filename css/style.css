@@ -1,0 +1,211 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+body{
+    font-family: 'Poppins', sans-serif !important;
+    margin: 2rem !important;
+    text-transform: uppercase;
+}
+h1{
+    font-weight: 700 !important;
+    margin-bottom: 0 !important;
+}
+p{
+    font-weight: 300 !important;
+    margin-bottom: 0 !important;
+}
+.logo {
+	height: 100px;    
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none;
+    margin: 0 !important;
+}
+.main-nav {
+	margin-top: 5px;
+
+}
+.main-nav a {
+	padding: 1rem;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+    font-weight: 400;
+}
+
+.main-nav a {
+	color: #000000;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #ff9900;
+}
+
+
+
+.header {
+    border-bottom: 3px solid black;
+    padding-bottom: 2rem;
+}
+
+.carousel{
+    margin-top: 2rem;
+
+}
+.carousel-inner{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+.carouselheading{
+    margin-top: 4rem;
+}
+.carouselheading p{
+    text-align: right;
+}
+.carouselheading h1{
+    color: #ff9900 !important;
+}
+.heading2{
+    margin-top: 4rem;
+}
+.beans{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.menutext{
+    margin-top: 4rem;
+}
+.menutext p{
+    margin-top: 1rem;
+}
+.menucontainer{
+    margin: 2rem;
+}
+.menulist{
+    margin-top: 1rem;
+}
+.menulist .row{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+.menulist p{
+    font-weight: 700 !important;
+}
+.menuimgcontainer{
+    margin-top: 4rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.menuimg{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.menuimg img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.aboutcontainer{
+    margin-top: 4rem;
+}
+.aboutimg{
+    height: 900px;
+    width: 100%;
+    object-fit: cover;
+}
+.address, .times{
+    margin-top: 2rem;
+}
+.map-container{
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 3px solid black;
+    
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+    .carousel-item img{
+        height: 800px;
+        object-fit: cover;
+    }
+    .menuimg img{
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .menucontainer{
+        margin: 2rem 10rem;
+    }
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+    .menuimg img{
+        height: 700px;
+        width: 100%;
+        object-fit: cover;
+    }
+}

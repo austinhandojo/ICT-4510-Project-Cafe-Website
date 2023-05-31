@@ -1,0 +1,42 @@
+.login{
+    text-align: -webkit-center;
+    margin-top: 4rem;
+}
+.formcontainer{
+    display: grid;
+    width: 300px;
+}
+h1{
+    color: #000;
+}
+form{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.form-control{
+    border-radius: 0 !important;
+}
+.form-group input{
+    margin-top: 1rem;
+}
+button{
+    margin-top: 1rem !important;
+}
+/* The Modal (background) */
+.modal{
+  display: none;
+}
+#menu-item-form{
+    display: none;
+}
+#logoutbutton{
+    display: none;
+}
+#addtrue{
+    display: none;
+}
+#addfalse{
+    display: none;
+}
