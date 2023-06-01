@@ -42,12 +42,18 @@ function authenticate() {
       document.getElementById("menu-item-form").style.display = "block";
       document.getElementById("logoutbutton").style.display = "block";
       document.getElementById("login-title").style.display = "none";
+      document.getElementById("addform-title").style.display = "block";
+
     })
     .catch((error) => {
       console.error(error);
     });
 }
 
+function loginfailed(){
+  document.getElementById("myModalfailed").style.display = "none";
+  location.reload();
+}
 
 function closeModal(){
     document.getElementById("myModal").style.display = "none";
@@ -104,5 +110,8 @@ function logout() {
   document.getElementById("formid").style.display = "block";
   document.getElementById("menu-item-form").style.display = "none";
   document.getElementById("logoutbutton").style.display = "none";
+  document.getElementById("login-title").style.display = "block";
+  document.getElementById("addform-title").style.display = "none";
+
 
 }

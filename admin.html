@@ -77,18 +77,20 @@
                   <h5 class="modal-title">Login Failed</h5>
                 </div>
                 <div class="modal-body">
-                  <p id="text">Please check your username and password. Refresh the page.</p>
+                  <p id="text">Please check your credentials and try again.</p>
                 </div>
                 <div class="modal-footer">
+                  <button onclick="loginfailed()" type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
         </div>
     </div>
-    
+    <div id="addform-title">
+      <h1>Add Menu Items</h1>
+    </div>
+    <br>
     <form id="menu-item-form">
-        <h1>Add Menu Items</h1>
-        <br>
         <label for="item">Item:</label><br>
         <input type="text" id="item" name="item" required><br>
       
@@ -100,7 +102,7 @@
       
         <button class="btn btn-light" type="button" onclick="addItem()">Add</button>
     </form>
-    <button id="logoutbutton" class="btn btn-light" type="button" onclick="logout()">Logout</button>
+    <button id="logoutbutton" class="btn btn-dark" type="button" onclick="logout()">Logout</button>
     <div id="addtrue" class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
