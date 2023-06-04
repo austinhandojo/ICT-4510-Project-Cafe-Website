@@ -1,3 +1,7 @@
+// Austin Handojo
+// ICT 4510
+// June 4 2023
+//JS for the menu page which contains functions to display and parse the list of menu items from the api.
 'use strict';
 
 const menuModule = (function () {

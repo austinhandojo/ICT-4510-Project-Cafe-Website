@@ -1,6 +1,6 @@
 // Austin Handojo
 // ICT 4510
-// May 14 2023
+// June 4 2023
 //mapbox initialize
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWhhbmRvam8iLCJhIjoiY2xobzIyNngxMHk5bDNxbnlqczJnZjN1ayJ9.JKeikPm6YIMep5s3aJdZ-A';
     const map = new mapboxgl.Map({

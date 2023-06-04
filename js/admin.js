@@ -1,9 +1,7 @@
 // Austin Handojo
 // ICT 4510
-// May 7 2023
-// This javascript requests a POST fetch method to authenticate the login data from the form input. Then the request response is stored as a json in the session storage.
-// Popup modals will appear upon pressing the login button to display either a success welcome message or an error message according to the request response code.
-
+// June 4 2023
+// Thi JS is for the admin page which includes the login logout function as well as adding new items. Other functions to control the buttons and inputs.
 var submission;
 var apiKey = "";
 var sessionToken = "";
